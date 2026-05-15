@@ -1,0 +1,26 @@
+# macOS / OS clutter
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Excel autosave / lock files
+~$*.xlsx
+~$*.xls
+~$*.xlsm
+~$*.docx
+
+# Temp + backup
+*.bak
+*.tmp
+*.log
+*.swp
+*~
+.~lock.*
+
+# IDE
+.idea/
+.vscode/
+*.iml

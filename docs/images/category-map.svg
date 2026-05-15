@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="models — category map showing sectors, diseases, regions, and screens">
+  <defs>
+    <linearGradient id="cmBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a1228"/>
+      <stop offset="100%" stop-color="#0c1e3a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="520" rx="12" fill="url(#cmBg)" stroke="#1e3a8a"/>
+
+  <text x="450" y="36" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="700" fill="#ffffff">What's in the repo</text>
+  <text x="450" y="58" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#94a3b8">Files grouped by ticker, then cross-indexed by sector, disease, and master sheets</text>
+
+  <!-- Central hub: master file -->
+  <g transform="translate(370,210)">
+    <rect width="160" height="64" rx="10" fill="#fbbf24"/>
+    <text x="80" y="26" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="13" font-weight="800" fill="#0c1e3a">Master.xlsx</text>
+    <text x="80" y="44" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="10" fill="#0c1e3a">central index across all tickers</text>
+    <text x="80" y="58" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="9" fill="#7c2d12">+ Hedge Funds · PDBs · Patents</text>
+  </g>
+
+  <!-- Top: Sectors -->
+  <g transform="translate(120,90)">
+    <rect width="660" height="74" rx="10" fill="#1e3a8a" stroke="#3b82f6" stroke-width="1.5"/>
+    <text x="14" y="22" font-family="ui-sans-serif, sans-serif" font-size="11" font-weight="700" fill="#bfdbfe" letter-spacing="1">SECTOR FILES · 11</text>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#dbeafe">
+      <text x="14" y="44">Biopharma · Software · Telecom-Media · Medical Devices · Industrials</text>
+      <text x="14" y="62">HCIT · HC Services · HardwareSemis · Gaming · Crypto · Consumer</text>
+    </g>
+  </g>
+
+  <!-- Left: Diseases -->
+  <g transform="translate(60,190)">
+    <rect width="240" height="120" rx="10" fill="#7f1d1d" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="14" y="22" font-family="ui-sans-serif, sans-serif" font-size="11" font-weight="700" fill="#fecaca" letter-spacing="1">DISEASE FILES · 3</text>
+    <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#fee2e2">
+      <text x="14" y="46">Cardiovascular</text>
+      <text x="14" y="64">Psychiatry</text>
+      <text x="14" y="82">Alzheimer's</text>
+    </g>
+    <text x="14" y="106" font-family="ui-sans-serif, sans-serif" font-size="10" fill="#fca5a5" font-style="italic">therapeutic-area views</text>
+  </g>
+
+  <!-- Right: Regional tickers -->
+  <g transform="translate(600,190)">
+    <rect width="240" height="120" rx="10" fill="#14532d" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="14" y="22" font-family="ui-sans-serif, sans-serif" font-size="11" font-weight="700" fill="#bbf7d0" letter-spacing="1">PER-TICKER · 600+</text>
+    <g font-family="ui-monospace, Menlo, monospace" font-size="10" fill="#dcfce7">
+      <text x="14" y="44">005930 · Samsung (KR)</text>
+      <text x="14" y="60">4502 · Takeda (JP)</text>
+      <text x="14" y="76">2196 · WuXi Bio (HK)</text>
+      <text x="14" y="92">ABBV · AbbVie (US)</text>
+    </g>
+    <text x="14" y="112" font-family="ui-sans-serif, sans-serif" font-size="10" fill="#86efac" font-style="italic">+ annual reports (PDF)</text>
+  </g>
+
+  <!-- Bottom: Screens -->
+  <g transform="translate(120,332)">
+    <rect width="660" height="74" rx="10" fill="#92400e" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="14" y="22" font-family="ui-sans-serif, sans-serif" font-size="11" font-weight="700" fill="#fef3c7" letter-spacing="1">SCREENS · folder</text>
+    <text x="14" y="44" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#fef3c7">Filtered cuts across sectors and regions — short lists driven by quant criteria</text>
+    <text x="14" y="62" font-family="ui-monospace, Menlo, monospace" font-size="10" fill="#fed7aa">(use this as a starting point to find ideas)</text>
+  </g>
+
+  <!-- Connectors -->
+  <g stroke="#475569" stroke-width="1.5" fill="none" stroke-dasharray="3,4" opacity="0.5">
+    <path d="M 450 164 L 450 210"/>
+    <path d="M 370 232 L 300 232"/>
+    <path d="M 530 232 L 600 232"/>
+    <path d="M 450 274 L 450 332"/>
+  </g>
+
+  <!-- Caveat footer -->
+  <g transform="translate(60,440)">
+    <rect width="780" height="56" rx="8" fill="#0c1e3a" stroke="#3b82f6" stroke-width="1" stroke-dasharray="4,3"/>
+    <text x="14" y="22" font-family="ui-sans-serif, sans-serif" font-size="11" font-weight="700" fill="#bfdbfe" letter-spacing="1">⚠ NOT INVESTMENT ADVICE</text>
+    <text x="14" y="40" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#cbd5e1">Spreadsheets are reference models for personal study only. Data may be stale.</text>
+  </g>
+</svg>
